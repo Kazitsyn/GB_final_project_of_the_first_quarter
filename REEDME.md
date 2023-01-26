@@ -1,13 +1,13 @@
 
 <image src = "start.png">
 
-## [Решение:](https://github.com/Kazitsyn/GB_final_project_of_the_first_quarter/blob/main/Task/Program.cs)
+# [Решение:](https://github.com/Kazitsyn/GB_final_project_of_the_first_quarter/blob/main/Task/Program.cs)
 Разделим задачу на 3 части 
-* Ввод
+* ввод
 * основной метод решения
 * вывод
 
-### Блок схема основного метода решения
+### Блок-схема основного метода решения
 <image src = "blank.png">
 
 * ### метод ввода
@@ -16,7 +16,7 @@
 string[] InputArr(char x = ' ')
 {
 
-    Console.Write($"Введите строки разделяющим сиволом в скобках ({x}): ");
+    Console.Write($"Введите строки разделяющим символом в скобках ({x}): ");
     string words = Console.ReadLine()?? " ";
     return words.Split(x);
 }
@@ -108,7 +108,7 @@ PrintResult(primerInput, SelectItem(primerInput));
 [1234, 1567, -2, computer science] --> [-2]
 [Russia, Demmark, Kazan] --> []
 
-Введите строки разделяющим сиволом в скобках ( ): Прошла первая четверть обучения в GB
+Введите строки разделяющим символом в скобках ( ): Прошла первая четверть обучения в GB
 [Прошла, первая, четверть, обучения, в, GB] --> [в, GB]
 ```
-# End
+# The end

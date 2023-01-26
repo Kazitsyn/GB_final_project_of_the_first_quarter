@@ -1,7 +1,7 @@
 ﻿string[] InputArr(char x = ' ')
 {
 
-    Console.Write($"Введите строки разделяющим сиволом в скобках ({x}): ");
+    Console.Write($"Введите строки разделяющим символом в скобках ({x}): ");
     string words = Console.ReadLine()?? " ";
     return words.Split(x);
 }
