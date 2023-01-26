@@ -1,8 +1,9 @@
-﻿string[] InputArr()
+﻿string[] InputArr(char x = ' ')
 {
-    Console.Write("Введите строки через пробел: ");
+
+    Console.Write($"Введите строки разделяющим сиволом в скобках ({x}): ");
     string words = Console.ReadLine()?? " ";
-    return words.Split(' ');
+    return words.Split(x);
 }
 
 
@@ -78,7 +79,6 @@ PrintResult(primer2, SelectItem(primer2));
 PrintResult(primer3, SelectItem(primer3));
 
 string[] primerInput = InputArr();
-
 PrintResult(primerInput, SelectItem(primerInput));
 
 
