@@ -1,4 +1,12 @@
 
-<image src = "https://gbcdn.mrgcdn.ru/uploads/asset/4283449/attachment/1251e74b703108ee483caaa98787097d.png">
+<image src = "start.png">
 
-# Итоговая проверочная работа
+## Решение:
+Разделим задачу на 3 части 
+* Ввод
+* основной метод решения
+* вывод
+
+### Блок схема основного метода решения
+<image src = "blank.png">
+
